@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+    <header>
+        <div class="divHeader1">
+            <div id="divButao">
+                
+                <select name="" id="idSelectMode" class="selectores" onchange="mudarTema()">
+                    <option value="Light Mode">Light Mode</option>
+                    <option value="Dark Mode">Dark Mode</option> 
+                </select>
+             
+                
+                  <select name="" id="idSelectLanguage"  class="selectores" onchange="mudarIdioma()">
+                    <option value="English">English</option>
+                    <option value="Português">Português</option>
+                  </select>
+                 
+            </div>
+
+            <div class="containerBotao">
+              <a href="arquivosFormulario/htmlFormuario.html">
+                <button id="butaoContactar" onclick="contacto()"><i class="fa-solid fa-message" style="color: #eceff3;"></i> Contact</button>
+              </a>
+                    
+
+            </div>
+             
+
+        </div>
+          
+
+          <div id="divProfile">
+            <h1 id="idH1">PROGRAMMER PROFILE</h1> 
+          </div>
+          <div>
+            <h2 id="idCode">&lt; THE_FIRE_CODE &gt;</h2>
+           
+          </div>
+    </header>
+ 
+    <div class="containerCenter">
+        <aside>
+            <div id="idTexto"> <p>Technology</p> </div> 
+
+            <div class="contentorImagens">
+                <img src="imagensIconsLinguagens/java (1).png" alt="java" id="idJava">
+                <img src="imagensIconsLinguagens/js.png" alt="" id="idJs">
+                <img src="imagensIconsLinguagens/html-5.png" alt="" class="icoHTMLMYSQL" id="idhtml">
+                <img src="imagensIconsLinguagens/mysql.png" alt=""  class="icoHTMLMYSQL" id="idsql">
+               
+            </div>
+        </aside>
+ 
+        <article>
+               <div class="conteinerImagemDev">
+                <img src="imagemDEV/perrFilDev (2).jpg" alt="" class="imagemdensevolvidor">
+               </div>
+
+               <div class="biografiaTextosContainer">
+                    <p class="biografiaTextos" id="idBiografiaTexto">
+                       <strong>Tafari Francisco Vilanculos </strong> , University student
+                       São Tómas of Mozambique Licensing the Development Course
+                       of Software.
+                    </p >
+
+                    <p class="biografiaTextos" id="idBiografiaTexto2">
+                        He is 19 years old and is always willing to learn,
+                        new things pertaining to Technology, Mathematics
+                         , Philosophy and much more.
+                    </p>
+               </div>
+        </article>
+    </div>
+     
+    <div class="containerFooter">
+        <footer>
+             <p id="footerInfo">&copy; Programmer Tafari Francisco Vilanculos</p>
+        </footer>
+    </div>
+    
+     <script src="script.js"></script>
+
+</body>
+</html>
